@@ -3,7 +3,7 @@ minnum = int(input("Die minimale Zahl: "))
 maxnum = int(input("Die maximale Zahl: "))
 nums = []
 
-for i in range(minnum, maxnum):
+for i in range(minnum, maxnum+1):
   nums.append(i)
   
 if minnum == 1:
